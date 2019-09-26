@@ -2,86 +2,86 @@
 
 ## Fork
 
-		First time build the local repo
+First time build the local repo
 
-		```
-		git clone https://github.com/YOUR_ID/YOUR_REPOSITORY.git
-		```
+```
+git clone https://github.com/YOUR_ID/YOUR_REPOSITORY.git
+```
 
-		```
-		git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
-		```
+```
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+```
 
-		```
-		git fetch upstream
-		```
+```
+git fetch upstream
+```
 
-		```
-		git merge upstream/master
-		```
+```
+git merge upstream/master
+```
 
-		Update code
+Update code
 
-		```
-		git checkout master
-		```
+```
+git checkout master
+```
 
-		```
-		git fetch upstream
-		```
+```
+git fetch upstream
+```
 
-		```
-		git merge updtream/master
-		```
+```
+git merge updtream/master
+```
 
-		```
-		git checkout test
-		```
+```
+git checkout test
+```
 
-		```
-		git add .
-		```
+```
+git add .
+```
 
-		```
-		git commit -m "comment"
-		```
+```
+git commit -m "comment"
+```
 
-		```
-		git push -u origin test
-		```
+```
+git push -u origin test
+```
 
-		```
-		git checkout master
-		```
+```
+git checkout master
+```
 
-		```
-		git fetch upstream
-		```
+```
+git fetch upstream
+```
 
-		```
-		git merge updtream/master
-		```
+```
+git merge updtream/master
+```
 
-		```
-		git pull origin master
-		```
+```
+git pull origin master
+```
 
-		```
-		git merge test
-		```
+```
+git merge test
+```
 
-		```
-		git status
-		```
+```
+git status
+```
 
-		```
-		git add .
-		```
+```
+git add .
+```
 
-		```
-		git commit -m "comment"
-		```
+```
+git commit -m "comment"
+```
 
-		```
-		git push -u origin master
-		```
+```
+git push -u origin master
+```
